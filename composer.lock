@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3689de1c2550a36644db3fcaa8073e11",
+    "content-hash": "2826b0c052eee60b6c5fbe802dc7f681",
+    "packages": [
+        {
+            "name": "barion/barion-web-php",
+            "version": "dev-feature/add_composer_json",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaveFerger/barion-web-php.git",
+                "reference": "97230d1a508150fb482dd91c8935a72840688aa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaveFerger/barion-web-php/zipball/97230d1a508150fb482dd91c8935a72840688aa2",
+                "reference": "97230d1a508150fb482dd91c8935a72840688aa2",
+                "shasum": ""
+            },
+            "type": "library",
+            "description": "BarionPHP is a compact PHP library to manage online e-money and card payments via the Barion Smart Gateway. It allows you to accept credit card and e-money payments in just a few lines of code.",
+            "support": {
+                "source": "https://github.com/DaveFerger/barion-web-php/tree/feature/add_composer_json"
+            },
+            "time": "2016-07-13 13:05:30"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "barion/barion-web-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

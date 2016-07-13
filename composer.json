@@ -6,24 +6,30 @@
             "email": "david@forberger.hu"
         }
     ],
-    "require": {},
+    "description": "Yii2 Barion Wrapper",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "barion/barion-web-php": "dev-feature/add_composer_json"
+    },
+
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "daveferger/yii2-barion",
-                "version": "dev-master",
-                "source": {
-                    "url": "git://github.com/DaveFerger/yii2-barion.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "DaveFerger\\Yii2Barion" : "src"
-                    }
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/DaveFerger/yii2-barion"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/DaveFerger/barion-web-php"
         }
     ],
+
+    "autoload": {
+        "psr-4": {
+            "DaveFerger\\yii2Barion\\": ""
+        }
+    }
+
 }
